@@ -867,3 +867,50 @@ Establish a statistical confidence in the prediction
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# TaDa! Runs a Doubling Experiment
+
+<div class="flex row -mt-4">
+
+<uim-repeat class="text-8xl ml-9 mt-8 text-orange-600" />
+
+<div class="text-6xl text-true-gray-600 font-bold mt-8 ml-4">
+Input is a Python function and configuration options
+</div>
+
+</div>
+
+<v-clicks>
+
+<div class="flex row">
+
+<uim-grid class="text-8xl ml-9 mt-8 text-orange-600" />
+
+<div class="text-6xl text-true-gray-600 font-bold mt-8 ml-4">
+Output is a data table and a performance prediction
+</div>
+
+</div>
+
+</v-clicks>
+
+<v-clicks>
+
+<div class="flex row">
+
+<uim-github class="text-8xl ml-9 mt-8 text-blue-600" />
+
+<div class="text-5xl text-true-gray-600 font-bold mt-15 ml-4">
+See <code>Tada-Project/tada</code> for details
+</div>
+
+</div>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
