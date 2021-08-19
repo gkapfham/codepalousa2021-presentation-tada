@@ -51,7 +51,7 @@ title: TaDa it's Magic
 
 ## Key Questions
 
-> Can a tool **automatically predict** a functions performance? Is it possible to
+> Can a tool **automatically predict** a function's performance? Is it possible to
 > automatically estimate the **worst-case time complexity** of a function?
 
 </div>
@@ -205,7 +205,7 @@ What are the trade-offs of these two approaches?
 
 [//]: # (Slide Start {{{)
 
-<div class="ml-8 grid grid-cols-2 gap-19">
+<div class="ml-8 grid grid-cols-2 gap-19 mt-3">
 <div>
 
 # Analytical
@@ -217,9 +217,9 @@ What are the trade-offs of these two approaches?
   }
 </style>
 
-- *Annotations* : assign types to functions accepting arguments
-- *Productivity* : types aid in the creation of the interface
-- *Checking* : confirm that inputs match expected types
+- Provides a clear means by which to compare functions
+- Does not depend on the hardware or software configuration
+- Yet, often requires precise mathematical reasoning skills
 
 </div>
 
@@ -229,9 +229,9 @@ What are the trade-offs of these two approaches?
 
 # Experimental
 
-- *Environments* : manage dependencies in isolation
-- *Package* : create a stand-alone executable application
-- *Publish* : expedite and simplify the release of program to PyPI
+- Must use comparable software and hardware configuration
+- Must implement algorithm in order to run the experiments
+- Must implement a framework for inputs and benchmarks
 
 </div>
 
@@ -246,7 +246,7 @@ What are the trade-offs of these two approaches?
 <uim-scenery class="text-6xl ml-8 mt-5 text-blue-600" />
 
 <div class="text-3xl font-bold mt-9 ml-4">
-New way to manage application dependencies
+Analytical characterizes an algorithm as, say, O(n)
 </div>
 
 </div>
@@ -260,7 +260,7 @@ New way to manage application dependencies
 <uim-grid class="text-6xl ml-8 mt-5 text-blue-600" />
 
 <div class="text-3xl font-bold mt-9 ml-4">
-Adjust to the challenge of adding type annotations
+Experiments to get a worst-case characterization?
 </div>
 
 </div>
@@ -277,7 +277,7 @@ Adjust to the challenge of adding type annotations
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-How to easily create command-line tools using modern Python?
+How to analytically evaluate an algorithm's performance?
 </div>
 
 </div>
@@ -289,7 +289,7 @@ How to easily create command-line tools using modern Python?
 <uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-5xl font-bold mt-8 ml-4">
-Typer: <code>https://typer.tiangolo.com/</code>
+Commonly used growth functions
 </div>
 
 </div>
@@ -303,7 +303,7 @@ Typer: <code>https://typer.tiangolo.com/</code>
 <uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-5xl font-bold mt-8 ml-4">
-Poetry: <code>https://python-poetry.org/</code>
+Study function's code constructs
 </div>
 
 </div>
