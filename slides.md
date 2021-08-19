@@ -811,3 +811,59 @@ Likely worst-case time complexity is O(n^3)
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-1 ml-4 mb-1">
+Challenges with running automated doubling experiments?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-exclamation-circle class="text-5xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-8 ml-4">
+Automatically generate inputs to the function
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-exclamation-circle class="text-5xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-8 ml-4">
+Determine when to stop running experiments
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-exclamation-circle class="text-5xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-3xl font-bold mt-8 ml-4">
+Establish a statistical confidence in the prediction
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
