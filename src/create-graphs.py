@@ -84,7 +84,7 @@ def create_all_functions():
     plt.ylabel("f(n)")
 
     # xmin, xmax, ymin, ymax
-    plt.axis([1, 10, 1, 1000]);
+    plt.axis([0, 10, 0, 1000]);
 
     plt.plot(x, np.log2(x), linestyle='solid', label="f(n)=$log_2(n)$")
     plt.plot(x, x * np.log2(x), linestyle='solid', label="f(n)=$n*log_2(n)$")
