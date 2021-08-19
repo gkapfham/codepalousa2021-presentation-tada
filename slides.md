@@ -147,17 +147,17 @@ Challenging about performance evaluation in Python?
 
 <div class="flex row">
 
-<mdi-package-variant class="text-8xl ml-6 mt-8 text-orange-600" />
+<uim-vector-square class="text-8xl ml-4 mt-12 text-orange-600" />
 
-<div class="text-6xl text-true-gray-600 font-bold mt-8 ml-4">
-Creating virtual environments
+<div class="text-7xl text-true-gray-600 font-bold mt-8 ml-4">
+Analytical Evaluation
 </div>
 
-<div class="text-6xl text-true-gray-600 font-bold mt-13 mr-15">
+<div class="text-6xl text-true-gray-600 font-bold mt-16 mr-15">
 <ul>
-<li> virtualenv </li>
-<li> venv </li>
-<li> pipenv </li>
+<li> algorithm </li>
+<li> constructs </li>
+<li> growth </li>
 </ul>
 </div>
 
@@ -167,17 +167,17 @@ Creating virtual environments
 
 <div class="flex row">
 
-<mdi-package-up class="text-8xl ml-6 mt-8 text-orange-600" />
+<uim-microscope class="text-9xl ml-4 mt-6 text-orange-600" />
 
-<div class="text-6xl text-true-gray-600 font-bold mt-8 ml-4">
-Publishing packages to PyPI
+<div class="text-7xl text-true-gray-600 font-bold mt-8 ml-1">
+Experimental Evaluation
 </div>
 
-<div class="text-8xl text-true-gray-600 font-bold mt-15 mr-19">
+<div class="text-8xl text-true-gray-600 font-bold mt-16 mr-19">
 <ul>
-<li> twine </li>
-<li> flit </li>
-<li> setup.py </li>
+<li> hardware </li>
+<li> software </li>
+<li> execute </li>
 </ul>
 </div>
 
@@ -185,29 +185,90 @@ Publishing packages to PyPI
 
 </v-clicks>
 
-<v-clicks>
+<div v-click>
 
-<div class="flex row">
+<div class="flex row mt-5">
 
-<mdi-console class="text-8xl ml-6 mt-8 text-orange-600" />
+<mdi-help-box class="text-6xl ml-4 mt-4 text-blue-600" />
 
-<div class="text-6xl text-true-gray-600 font-bold mt-8 ml-4">
-Making command-line interfaces
-</div>
-
-<div class="text-8xl text-true-gray-600 font-bold mt-14 mr-19">
-<ul>
-<li> argparse </li>
-<li> fire </li>
-<li> click </li>
-</ul>
+<div class="text-3xl font-bold mt-8 ml-4">
+What are the trade-offs of these two approaches?
 </div>
 
 </div>
 
-</v-clicks>
+</div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="ml-8 grid grid-cols-2 gap-19">
+<div>
+
+# Analytical
+
+<style>
+  li {
+  font-size: 22px;
+  margin-bottom: 10px;
+  }
+</style>
+
+- *Annotations* : assign types to functions accepting arguments
+- *Productivity* : types aid in the creation of the interface
+- *Checking* : confirm that inputs match expected types
+
+</div>
+
+<div v-click>
+
+<div>
+
+# Experimental
+
+- *Environments* : manage dependencies in isolation
+- *Package* : create a stand-alone executable application
+- *Publish* : expedite and simplify the release of program to PyPI
+
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-scenery class="text-6xl ml-8 mt-5 text-blue-600" />
+
+<div class="text-3xl font-bold mt-9 ml-4">
+New way to manage application dependencies
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-grid class="text-6xl ml-8 mt-5 text-blue-600" />
+
+<div class="text-3xl font-bold mt-9 ml-4">
+Adjust to the challenge of adding type annotations
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
 
 ---
 
