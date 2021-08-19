@@ -511,3 +511,46 @@ What is worst-case time complexity of <code>is_subset</code>?
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Run an experiment to get likely worst-case time complexity of program?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-chart class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Bespoke tool auto-doubling experiment
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row mt-4">
+
+<uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+TaDa! auto-doubling with Python function
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
