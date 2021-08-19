@@ -63,7 +63,7 @@ title: TaDa it's Magic
 ## Intended Audience
 
 > An **adventuresome** technology enthusiast who wants to explore how a new
-> approach to performance evaluation can meet their **programs faster**!
+> approach to performance evaluation can make their **programs faster**!
 
 </div>
 
@@ -114,7 +114,7 @@ Let's learn how to predict a function's performance!
 ## Importance of Performance
 
 > Programmers who create serverless functions with AWS Lambda need to carefully
-> monitor and improve the performance of the functions
+> **monitor** and **improve** the performance of the functions
 
 </div>
 
@@ -260,7 +260,7 @@ Analytical characterizes an algorithm as, say, O(n)
 <uim-grid class="text-6xl ml-8 mt-5 text-blue-600" />
 
 <div class="text-3xl font-bold mt-9 ml-4">
-Experiments to get a worst-case characterization?
+Experiments run program to collect performance data
 </div>
 
 </div>
@@ -277,7 +277,7 @@ Experiments to get a worst-case characterization?
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-How to analytically evaluate a function's performance?
+How to analytically evaluate a program's performance?
 </div>
 
 </div>
@@ -303,7 +303,7 @@ Commonly used growth functions
 <uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-5xl font-bold mt-8 ml-4">
-Study function's code constructs
+Study program's code constructs
 </div>
 
 </div>
@@ -363,7 +363,7 @@ Study function's code constructs
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-Relationship between growth function and function's performance?
+Relationship between growth function and program's performance?
 </div>
 
 </div>
@@ -403,6 +403,43 @@ Fast growth functions → slow programs
 [//]: # (Slide Start {{{)
 
 # Analyzing the <code>add_digits</code> Function
+
+<div class="ml-2 my-2">
+
+```python {all|1|2|3-4|5|7-8|all}
+def add_digits(digits: str) -> int:
+    value = 0
+    for digit in digits:
+        value += int(digit)
+    return value
+
+sum_digits = add_digits("123")
+print(sum_digits)
+```
+
+</div>
+
+<div v-click>
+
+<div class="flex row mt-5">
+
+<mdi-help-box class="text-6xl ml-4 mt-4 text-blue-600" />
+
+<div class="text-3xl font-bold mt-8 ml-4">
+What is worst-case time complexity of <code>add_digits</code>?
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Analyzing the <code>factorial</code> Function
 
 <div class="ml-2 my-2">
 
