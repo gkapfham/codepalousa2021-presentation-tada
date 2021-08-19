@@ -20,13 +20,13 @@ title: TaDa it's Magic
 
 # TaDa it's Magic!
 
-## Predicting the Performance of Functions through Automated Doubling Experiments
+## Predicting the Performance of Programs through Automated Doubling Experiments
 
 <div class="container my-5">
   &nbsp;
 </div>
 
-### Gregory M. Kapfhammer
+### Gregory M. Kapfhammer, Lancaster Wu, Enpu You
 
 ### CodepaLOUsa 2021
 
@@ -558,7 +558,7 @@ TaDa! auto-doubling for a Python function
 
 [//]: # (Slide Start {{{)
 
-# Doubling Experiments: Linear
+# Doubling Experiment: Linear
 
 <style>
   h2 {
@@ -637,3 +637,91 @@ Likely worst-case time complexity is O(n)
 </div>
 
 </div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Doubling Experiment: Quadratic
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-orange-600 text-center mt-8 mb-4;
+  }
+</style>
+
+## Double the size of the program's input
+
+<div class="ml-0 grid grid-cols-2 gap-19 mt-1 -mb-3">
+
+<div class="pb-2 border-2 mt-2 border-gray-800 border-opacity-80 rounded">
+
+<uim-box class="text-6xl ml-8 mt-4 text-blue-600" />
+
+<div class="flex row">
+
+<div>
+<ic-twotone-watch-later class="text-6xl ml-8 mt-6 text-blue-600" />
+</div>
+
+<div class="ml-5 mt-10 text-4xl">
+12.63 seconds
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="pb-2 border-2 mt-2 border-gray-800 border-opacity-80 rounded">
+
+<div class="flex row">
+
+<uim-box class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-box class="text-6xl ml-8 mt-6 text-blue-600" />
+
+</div>
+
+<div class="flex row">
+
+<div>
+<ic-twotone-watch-later class="text-6xl ml-8 mt-6 text-blue-600" />
+</div>
+
+<div class="ml-5 mt-10 text-4xl">
+51.48 seconds
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+## Doubling ratio is approximately 4
+
+</div>
+
+<div v-click>
+
+<div class="flex row mt-6 ml-11">
+
+<mdi-alert-octagram class="text-6xl ml-10 mt-0 text-blue-600" />
+
+<div class="text-3xl font-bold mt-4 ml-4">
+Likely worst-case time complexity is O(n^2)
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
