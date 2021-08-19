@@ -111,10 +111,10 @@ Let's learn how to predict a function's performance!
 
 <div v-click>
 
-## Command-Line Interface
+## Importance of Performance
 
-> Programmers who start using Python through Jupyter notebooks may need to
-> create **tools** and **servers** that require a command-line interface
+> Programmers who create serverless functions with AWS Lambda need to carefully
+> monitor and improve the performance of the functions
 
 </div>
 
@@ -125,7 +125,7 @@ Let's learn how to predict a function's performance!
 <mdi-help-box class="text-6xl ml-8 mt-4 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
-What is challenging about programming in Python?
+Challenging about performance evaluation in Python?
 </div>
 
 </div>
