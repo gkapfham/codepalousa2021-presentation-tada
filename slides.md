@@ -13,15 +13,14 @@ fonts:
 info: |
   ## CodepaLOUsa 2021
   CodepaLOUsa 2021
-title: Great on their Own, Even Better Together
+title: TaDa it's Magic
 ---
 
 [//]: # (Slide Start {{{)
 
-# Great on their Own, Even Better Together
+# TaDa it's Magic!
 
-## Application Development with
-## Python, Typer, and Poetry
+## Predicting the Performance of Functions through Automated Doubling Experiments
 
 <div class="container my-5">
   &nbsp;
