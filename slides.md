@@ -444,15 +444,15 @@ What is worst-case time complexity of <code>add_digits</code>?
 
 <div class="ml-2 my-2">
 
-```python {all|1|2|3-4|5|7-8|all}
-def add_digits(digits: str) -> int:
-    value = 0
-    for digit in digits:
-        value += int(digit)
-    return value
+```python {all|1|2-3|4-5|7-8|all}
+def factorial(x: int) -> int:
+    if x == 1:
+        return 1
+    else:
+        return x*factorial(x-1)
 
-sum_digits = add_digits("123")
-print(sum_digits)
+factorial_value = factorial(3)
+print(factorial_value)
 ```
 
 </div>
@@ -464,7 +464,7 @@ print(sum_digits)
 <mdi-help-box class="text-6xl ml-4 mt-4 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
-What is worst-case time complexity of <code>add_digits</code>?
+What is worst-case time complexity of <code>factorial</code>?
 </div>
 
 </div>
