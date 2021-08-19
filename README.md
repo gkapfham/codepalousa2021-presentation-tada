@@ -5,9 +5,10 @@
 ## Introduction
 
 Slides created by [Gregory M. Kapfhammer](https://www.gregorykapfhammer.com/)
-for a presentation given at [PyOhio 2021](https://www.pyohio.org/2021/). The
-title of the presentation is "Great On Their Own, Even Better Together:
-Application Development with Python, Typer, and Poetry".
+for a presentation given at [CodepaLOUsa
+  2021](https://www.codepalousa.com/Default.aspx). The title of the
+presentation is "TaDa it's Magic: Predicting the Performance of Functions
+through Automated Doubling Experiments".
 
 ## Installation
 
