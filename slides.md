@@ -402,11 +402,11 @@ Fast growth functions → slow programs
 
 [//]: # (Slide Start {{{)
 
-# Command-Line Interface with Typer
+# Analyzing the <code>add_digits</code> Function
 
 <div class="ml-2 my-2">
 
-```python {all|1-4|5|6-8|all}
+```python {all|1|2|3-4|5|7-8|all}
 def add_digits(digits: str) -> int:
     value = 0
     for digit in digits:
@@ -419,19 +419,19 @@ print(sum_digits)
 
 </div>
 
-<v-click>
+<div v-click>
 
-<div class="flex row">
+<div class="flex row mt-5">
 
-<uim-github class="text-7xl ml-0 mt-0 text-blue-600" />
+<mdi-help-box class="text-6xl ml-4 mt-4 text-blue-600" />
 
-<div class="text-4xl font-medium mt-6 ml-4">
-See <code>AnalyzeActions/WorkKnow</code> for details!
+<div class="text-3xl font-bold mt-8 ml-4">
+What is worst-case time complexity of <code>add_digits</code>?
 </div>
 
 </div>
 
-</v-click>
+</div>
 
 [//]: # (Slide End }}})
 
