@@ -229,9 +229,9 @@ What are the trade-offs of these two approaches?
 
 # Experimental
 
-- Must use comparable software and hardware configuration
-- Must implement algorithm in order to run the experiments
-- Must implement a framework for inputs and benchmarks
+- Must generate inputs to the function subject to analysis
+- Must repeatedly run a function and collect performance data
+- Yet, generally accessible to programmers if good tools exist
 
 </div>
 
@@ -277,7 +277,7 @@ Experiments to get a worst-case characterization?
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
-How to analytically evaluate an algorithm's performance?
+How to analytically evaluate a function's performance?
 </div>
 
 </div>
@@ -355,3 +355,46 @@ Study function's code constructs
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+Relationship between growth function and function's performance?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-5xl font-bold mt-8 ml-4">
+Commonly used growth functions
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-5xl font-bold mt-8 ml-4">
+Study function's code constructs
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
