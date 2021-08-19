@@ -333,3 +333,47 @@ Poetry: <code>https://python-poetry.org/</code>
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# "Fast" Order of Growth Functions
+
+<style>
+  .constraint {
+    width: 100%;
+  }
+</style>
+
+<br>
+
+<div class="constraint -mt-17">
+
+![Fast Order of Growth Functions](/fast-growth-functions.png)
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# "Slow" Order of Growth Functions
+
+<style>
+  .constraint {
+    width: 100%;
+  }
+</style>
+
+<br>
+
+<div class="constraint -mt-17">
+
+![Slow Order of Growth Functions](/slow-growth-functions.png)
+
+</div>
+
+[//]: # (Slide End }}})
