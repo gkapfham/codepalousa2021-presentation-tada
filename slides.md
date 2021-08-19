@@ -531,7 +531,7 @@ Run an experiment to get likely worst-case time complexity of program?
 <uim-chart class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-4xl font-bold mt-10 ml-4">
-Bespoke tool auto-doubling experiment
+Bespoke auto-doubling experiment tool
 </div>
 
 </div>
@@ -545,7 +545,7 @@ Bespoke tool auto-doubling experiment
 <uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-4xl font-bold mt-10 ml-4">
-TaDa! auto-doubling with Python function
+TaDa! auto-doubling for a Python function
 </div>
 
 </div>
