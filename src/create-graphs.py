@@ -17,7 +17,6 @@ x = np.linspace(0, 10, 1000)
 
 plt.figure(figsize=(16,9))
 
-plt.title("Order of Growth Functions")
 plt.xlabel("n")
 plt.ylabel("f(n)")
 
@@ -25,6 +24,7 @@ plt.ylabel("f(n)")
 plt.axis([1, 10, 1, 1000]);
 
 plt.plot(x, np.log2(x), linestyle='solid', label="f(n)=$log_2(n)$")
+plt.plot(x, x * np.log2(x), linestyle='solid', label="f(n)=$n*log_2(n)$")
 plt.plot(x, x, linestyle='solid', label="f(n)=n")
 plt.plot(x, 2 * x + 10, linestyle='solid', label="f(n)=2n+10")
 plt.plot(x, x * x, linestyle='dashed', label="f(n) = $n^2$")
