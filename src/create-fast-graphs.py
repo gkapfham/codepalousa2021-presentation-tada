@@ -56,10 +56,10 @@ def create_fast_growth_functions():
     # xmin, xmax, ymin, ymax
     plt.axis([1, 10, 1, 1000]);
 
-    plt.plot(x, x * np.log2(x), linestyle='solid', label="f(n)=$n*log_2(n)$")
-    plt.plot(x, x * x, linestyle='dashed', label="f(n) = $n^2$")
-    plt.plot(x, x * x * x, linestyle='dashdot', label="f(n) = $n^3$")
-    plt.plot(x, np.exp2(x), linestyle='dotted', label="f(n) = $2^n$");
+    plt.plot(x, x * np.log2(x), linestyle='solid', label="f(n)=$n*log_2(n)$", linewidth=3)
+    plt.plot(x, x * x, linestyle='dashed', label="f(n) = $n^2$", linewidth=3)
+    plt.plot(x, x * x * x, linestyle='dashdot', label="f(n) = $n^3$", linewidth=3)
+    plt.plot(x, np.exp2(x), linestyle='dotted', label="f(n) = $2^n$", linewidth=3);
     plt.legend();
 
     plt.savefig('../public/fast-growth-functions.png', transparent=True, dpi=300)
