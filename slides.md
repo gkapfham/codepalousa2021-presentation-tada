@@ -316,7 +316,7 @@ Poetry: <code>https://python-poetry.org/</code>
 
 [//]: # (Slide Start {{{)
 
-# Order of Growth Functions
+# Common Order of Growth Functions
 
 <style>
   .constraint {
