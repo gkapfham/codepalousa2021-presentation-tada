@@ -372,10 +372,10 @@ Relationship between growth function and function's performance?
 
 <div class="flex row">
 
-<uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
 
-<div class="text-5xl font-bold mt-8 ml-4">
-Commonly used growth functions
+<div class="text-4xl font-bold mt-10 ml-4">
+Slow growth functions → fast programs
 </div>
 
 </div>
@@ -386,15 +386,52 @@ Commonly used growth functions
 
 <div class="flex row">
 
-<uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-exclamation-circle class="text-6xl ml-8 mt-6 text-blue-600" />
 
-<div class="text-5xl font-bold mt-8 ml-4">
-Study function's code constructs
+<div class="text-4xl font-bold mt-10 ml-4">
+Fast growth functions → slow programs
 </div>
 
 </div>
 
 </div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Command-Line Interface with Typer
+
+<div class="ml-2 my-2">
+
+```python {all|1-4|5|6-8|all}
+def add_digits(digits: str) -> int:
+    value = 0
+    for digit in digits:
+        value += int(digit)
+    return value
+
+sum_digits = add_digits("123")
+print(sum_digits)
+```
+
+</div>
+
+<v-click>
+
+<div class="flex row">
+
+<uim-github class="text-7xl ml-0 mt-0 text-blue-600" />
+
+<div class="text-4xl font-medium mt-6 ml-4">
+See <code>AnalyzeActions/WorkKnow</code> for details!
+</div>
+
+</div>
+
+</v-click>
 
 [//]: # (Slide End }}})
 
