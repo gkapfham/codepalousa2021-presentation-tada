@@ -51,8 +51,8 @@ title: TaDa it's Magic
 
 ## Key Questions
 
-> Can a tool **automatically predict** a function's performance? Is it possible to
-> automatically estimate the **worst-case time complexity** of a function?
+> Can a tool **automatically predict** a program's performance? Is it possible to
+> automatically estimate the **worst-case time complexity** of a program?
 
 </div>
 
@@ -113,8 +113,9 @@ Let's learn how to predict a function's performance!
 
 ## Importance of Performance
 
-> Programmers who create serverless functions with AWS Lambda need to carefully
-> **monitor** and **improve** the performance of the functions
+> Programmers who create, say, **serverless functions** with AWS Lambda
+> need to carefully **monitor** and **improve** the performance of the
+> functions
 
 </div>
 
@@ -155,9 +156,9 @@ Analytical Evaluation
 
 <div class="text-6xl text-true-gray-600 font-bold mt-16 mr-15">
 <ul>
-<li> algorithm </li>
-<li> constructs </li>
-<li> growth </li>
+<li> Algorithm </li>
+<li> Constructs </li>
+<li> Growth </li>
 </ul>
 </div>
 
@@ -173,11 +174,11 @@ Analytical Evaluation
 Experimental Evaluation
 </div>
 
-<div class="text-8xl text-true-gray-600 font-bold mt-16 mr-19">
+<div class="text-8xl text-true-gray-600 font-bold mt-16 mr-14">
 <ul>
-<li> hardware </li>
-<li> software </li>
-<li> execute </li>
+<li> Program </li>
+<li> Benchmark </li>
+<li> Execute </li>
 </ul>
 </div>
 

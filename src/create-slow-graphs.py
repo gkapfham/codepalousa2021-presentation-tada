@@ -25,11 +25,11 @@ def create_slow_growth_functions():
     # xmin, xmax, ymin, ymax
     plt.axis([1, 10, 1, 100]);
 
-    plt.plot(x, np.log2(x), linestyle='solid', label="f(n)=$log_2(n)$")
-    plt.plot(x, x * np.log2(x), linestyle='solid', label="f(n)=$n*log_2(n)$")
-    plt.plot(x, x, linestyle='solid', label="f(n)=n")
-    plt.plot(x, 2 * x + 10, linestyle='solid', label="f(n)=2n+10")
-    plt.plot(x, x * x, linestyle='dashed', label="f(n) = $n^2$")
+    plt.plot(x, np.log2(x), linestyle='solid', label="f(n)=$log_2(n)$", linewidth=3)
+    plt.plot(x, x * np.log2(x), linestyle='solid', label="f(n)=$n*log_2(n)$", linewidth=3)
+    plt.plot(x, x, linestyle='solid', label="f(n)=n", linewidth=3)
+    plt.plot(x, 2 * x + 10, linestyle='solid', label="f(n)=2n+10", linewidth=3)
+    plt.plot(x, x * x, linestyle='dashed', label="f(n) = $n^2$", linewidth=3)
     plt.legend();
 
     plt.savefig('../public/slow-growth-functions.png', transparent=True, dpi=300)
