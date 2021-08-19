@@ -562,18 +562,18 @@ TaDa! auto-doubling with Python function
 
 <style>
   h2 {
-    font-size: 36px;
-    @apply text-orange-600 text-center mt-10 mb-3;
+    font-size: 42px;
+    @apply text-orange-600 text-center mt-8 mb-4;
   }
 </style>
 
 ## Double the size of the program's input
 
-<div class="ml-8 grid grid-cols-2 gap-19 mt-1">
+<div class="ml-0 grid grid-cols-2 gap-19 mt-1 -mb-3">
 
-<div>
+<div class="pb-2 border-2 mt-2 border-gray-800 border-opacity-80 rounded">
 
-<uim-box class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-box class="text-6xl ml-8 mt-4 text-blue-600" />
 
 <div class="flex row">
 
@@ -591,14 +591,47 @@ TaDa! auto-doubling with Python function
 
 <div v-click>
 
-<div>
+<div class="pb-2 border-2 mt-2 border-gray-800 border-opacity-80 rounded">
 
 <div class="flex row">
 
-<uim-box class="text-7xl ml-8 mt-6 text-blue-600" />
+<uim-box class="text-6xl ml-8 mt-6 text-blue-600" />
+<uim-box class="text-6xl ml-8 mt-6 text-blue-600" />
 
 </div>
 
+<div class="flex row">
+
+<div>
+<ic-twotone-watch-later class="text-6xl ml-8 mt-6 text-blue-600" />
+</div>
+
+<div class="ml-5 mt-10 text-4xl">
+31.45 seconds
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+## Doubling ratio is approximately 2
+
+</div>
+
+<div v-click>
+
+<div class="flex row mt-6 ml-15">
+
+<mdi-alert-octagram class="text-6xl ml-10 mt-0 text-blue-600" />
+
+<div class="text-3xl font-bold mt-4 ml-4">
+Likely worst-case time complexity is O(n)
 </div>
 
 </div>
