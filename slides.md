@@ -473,3 +473,41 @@ What is worst-case time complexity of <code>factorial</code>?
 
 [//]: # (Slide End }}})
 
+---
+
+[//]: # (Slide Start {{{)
+
+# Analyzing the <code>is_subset</code> Function
+
+<div class="ml-2 my-2">
+
+```python{all|1|2|4|5-7|8-9|all}
+def is_subset(one: List, two: List) -> bool:
+    for element_one in one:
+        matched = False
+        for element_two in two:
+            if element_one == element_two:
+                matched = True
+                break
+        if not matched:
+            return False
+    return True
+```
+
+</div>
+
+<div v-click>
+
+<div class="flex row -mt-1">
+
+<mdi-help-box class="text-6xl ml-4 mt-0 text-blue-600" />
+
+<div class="text-3xl font-bold mt-4 ml-4">
+What is worst-case time complexity of <code>is_subset</code>?
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
