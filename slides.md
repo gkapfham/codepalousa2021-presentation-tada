@@ -51,9 +51,8 @@ title: TaDa it's Magic
 
 ## Key Questions
 
-> What are the **benefits** and **challenges** associated with using the Python
-> language, Typer, and Poetry for creating command-line
-> applications?
+> Can a tool **automatically predict** a functions performance? Is it possible to
+> automatically estimate the **worst-case time complexity** of a function?
 
 </div>
 
@@ -63,8 +62,8 @@ title: TaDa it's Magic
 
 ## Intended Audience
 
-> An **adventuresome** technology enthusiast who wants to explore how both a
-> new **paradigm** and software **tools** can improve their development skills!
+> An **adventuresome** technology enthusiast who wants to explore how a new
+> approach to performance evaluation can meet their **programs faster**!
 
 </div>
 
@@ -75,7 +74,7 @@ title: TaDa it's Magic
 <uim-rocket class="text-6xl ml-8 mt-5 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
-Let's create a command-line application in Python!
+Let's learn how to predict a function's performance!
 </div>
 
 </div>
