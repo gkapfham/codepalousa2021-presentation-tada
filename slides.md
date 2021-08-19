@@ -554,3 +554,53 @@ TaDa! auto-doubling with Python function
 
 [//]: # (Slide End }}})
 
+---
+
+[//]: # (Slide Start {{{)
+
+# Doubling Experiments: Linear
+
+<style>
+  h2 {
+    font-size: 36px;
+    @apply text-orange-600 text-center mt-10 mb-3;
+  }
+</style>
+
+## Double the size of the program's input
+
+<div class="ml-8 grid grid-cols-2 gap-19 mt-1">
+
+<div>
+
+<uim-box class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="flex row">
+
+<div>
+<ic-twotone-watch-later class="text-6xl ml-8 mt-6 text-blue-600" />
+</div>
+
+<div class="ml-5 mt-10 text-4xl">
+14.98 seconds
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div>
+
+<div class="flex row">
+
+<uim-box class="text-7xl ml-8 mt-6 text-blue-600" />
+
+</div>
+
+</div>
+
+</div>
+
+</div>
