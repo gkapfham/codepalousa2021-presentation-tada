@@ -32,5 +32,4 @@ plt.plot(x, x * x * x, linestyle='dashdot', label="f(x) = $x^3$")
 plt.plot(x, np.exp2(x), linestyle='dotted', label="f(x) = $2^x$");
 plt.legend();
 
-plt.savefig('all-functions.png', transparent=True, dpi=300)
-plt.savefig('all-functions.pdf')
+plt.savefig('../public/all-functions.png', transparent=True, dpi=300)

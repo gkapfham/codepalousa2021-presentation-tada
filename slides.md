@@ -328,7 +328,7 @@ Poetry: <code>https://python-poetry.org/</code>
 
 <div class="constraint -mt-17">
 
-![All Order of Growth Functions](/functions.png)
+![All Order of Growth Functions](/all-functions.png)
 
 </div>
 
