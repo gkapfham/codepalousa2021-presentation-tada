@@ -311,3 +311,25 @@ Poetry: <code>https://python-poetry.org/</code>
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Order of Growth Functions
+
+<style>
+  .constraint {
+    width: 100%;
+  }
+</style>
+
+<br>
+
+<div class="constraint -mt-17">
+
+![All Order of Growth Functions](/functions.png)
+
+</div>
+
+[//]: # (Slide End }}})
