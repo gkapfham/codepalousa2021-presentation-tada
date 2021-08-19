@@ -316,28 +316,6 @@ Poetry: <code>https://python-poetry.org/</code>
 
 [//]: # (Slide Start {{{)
 
-# Common Order of Growth Functions
-
-<style>
-  .constraint {
-    width: 100%;
-  }
-</style>
-
-<br>
-
-<div class="constraint -mt-17">
-
-![All Order of Growth Functions](/all-functions.png)
-
-</div>
-
-[//]: # (Slide End }}})
-
----
-
-[//]: # (Slide Start {{{)
-
 # "Fast" Order of Growth Functions
 
 <style>
