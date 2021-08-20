@@ -405,7 +405,7 @@ Fast growth functions → slow programs
 
 # Analyzing the <code>add_digits</code> Function
 
-<div class="ml-2 my-2">
+<div class="ml-2 my-2 mt-8">
 
 ```python {all|1|2|3-4|5|7-8|all}
 def add_digits(digits: str) -> int:
@@ -442,7 +442,7 @@ What is worst-case time complexity of <code>add_digits</code> ?
 
 # Analyzing the <code>factorial</code> Function
 
-<div class="ml-2 my-2">
+<div class="ml-2 my-2 mt-8">
 
 ```python {all|1|2-3|4-5|7-8|all}
 def factorial(x: int) -> int:
@@ -1020,7 +1020,7 @@ Hypothesis: Property-based testing tool
 <uim-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-4xl font-bold mt-10 ml-4">
-JSON Schema: Describe input format
+JSON Schema: Describe format of input
 </div>
 
 </div>
