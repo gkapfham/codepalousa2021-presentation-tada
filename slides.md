@@ -114,7 +114,7 @@ Let's learn how to predict a function's performance!
 ## Importance of Performance
 
 > Programmers who create, say, **serverless functions** with AWS Lambda
-> need to carefully **monitor** and **improve** the performance of the
+> need to carefully **monitor** and **improve** the performance of these
 > functions
 
 </div>
@@ -141,7 +141,7 @@ Challenging about performance evaluation in Python?
 
 <style>
   li {
-  font-size: 26px;
+  font-size: 34px;
   margin-bottom: 1px;
   }
 </style>
@@ -178,7 +178,7 @@ Experimental Evaluation
 <ul>
 <li> Program </li>
 <li> Benchmark </li>
-<li> Execute </li>
+<li> Study </li>
 </ul>
 </div>
 
@@ -230,9 +230,9 @@ What are the trade-offs of these two approaches?
 
 # Experimental
 
-- Must generate inputs to the function subject to analysis
-- Must repeatedly run a function and collect performance data
-- Yet, generally accessible to programmers if good tools exist
+- Must generate inputs to the program subject to analysis
+- Must repeatedly run a program and collect performance data
+- Only generally accessible to programmers if good tools exist
 
 </div>
 
@@ -247,7 +247,7 @@ What are the trade-offs of these two approaches?
 <uim-scenery class="text-6xl ml-8 mt-5 text-blue-600" />
 
 <div class="text-3xl font-bold mt-9 ml-4">
-Analytical characterizes an algorithm as, say, O(n)
+Analysis characterizes an algorithm as, say, O(n)
 </div>
 
 </div>
@@ -819,7 +819,7 @@ Likely worst-case time complexity is O(n^3)
 <div class="flex row">
 
 <div class="text-7xl text-orange-600 font-bold mt-1 ml-4 mb-1">
-Challenges with running automated doubling experiments?
+What are challenges with running automated doubling experiments?
 </div>
 
 </div>
@@ -911,5 +911,46 @@ See <code>Tada-Project/tada</code> for details
 </div>
 
 </v-clicks>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Analyzing the <code>insertion_sort</code> Function
+
+<div v-click>
+
+<div class="ml-2 my-2">
+
+```python
+def insertion_sort(lst: list[int]) -> list[int]:
+    for i in range(1, len(lst)):
+        value = lst[i]
+        pos = i
+        while pos > 0 and value < lst[pos - 1]:
+            lst[pos] = lst[pos - 1]
+            pos -= 1
+        lst[pos] = value
+    return lst
+```
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row mt-5">
+
+<mdi-help-box class="text-6xl ml-4 mt-4 text-blue-600" />
+
+<div class="text-3xl font-bold mt-8 ml-4">
+Can TaDa! estimate worst-case of <code>insertion_sort</code>?
+</div>
+
+</div>
+
+</div>
 
 [//]: # (Slide End }}})
