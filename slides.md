@@ -920,11 +920,9 @@ See <code>Tada-Project/tada</code> for details
 
 # Analyzing the <code>insertion_sort</code> Function
 
-<div v-click>
-
 <div class="ml-2 my-5">
 
-```python
+```python{all|1|2|5|9|all}
 def insertion_sort(lst: list[int]) -> list[int]:
     for i in range(1, len(lst)):
         value = lst[i]
@@ -935,8 +933,6 @@ def insertion_sort(lst: list[int]) -> list[int]:
         lst[pos] = value
     return lst
 ```
-</div>
-
 </div>
 
 <div v-click>
@@ -961,11 +957,9 @@ Can TaDa predict worst-case of <code>insertion_sort</code> ?
 
 # Analyzing the <code>bubble_sort</code> Function
 
-<div v-click>
-
 <div class="ml-2 my-4 mt-10">
 
-```python
+```python{all|1|2|2-3|8|all}
 def bubble_sort(lst: list[int]) -> list[int]:
     for num in range(len(lst) - 1, 0, -1):
         for i in range(num):
@@ -975,8 +969,6 @@ def bubble_sort(lst: list[int]) -> list[int]:
                 lst[i + 1] = temp
     return lst
 ```
-</div>
-
 </div>
 
 <div v-click>
@@ -994,6 +986,49 @@ Can TaDa predict worst-case of <code>bubble_sort</code> ?
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+<div class="flex row">
+
+<div class="text-7xl text-orange-600 font-bold mt-5 ml-4 mb-4">
+How to automatically generate function inputs during experiments?
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+Hypothesis: Property-based testing tool
+</div>
+
+</div>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-check-circle class="text-6xl ml-8 mt-6 text-blue-600" />
+
+<div class="text-4xl font-bold mt-10 ml-4">
+JSON Schema: Describe input format
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
 
 ---
 
