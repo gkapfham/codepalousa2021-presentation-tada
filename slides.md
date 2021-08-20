@@ -1029,7 +1029,6 @@ JSON Schema: Describe format of input
 
 [//]: # (Slide End }}})
 
-
 ---
 
 [//]: # (Slide Start {{{)
