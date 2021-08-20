@@ -1096,7 +1096,7 @@ Describe structure to support automated data generation
 
 [//]: # (Slide Start {{{)
 
-## TaDa's Automated Analysis of Bubble Sort
+## TaDa's Comparison of Sorting Functions
 
 <style>
   h2 {
