@@ -1003,7 +1003,7 @@ Can TaDa predict worst-case of <code>bubble_sort</code> ?
 
 <div class="ml-2 my-2">
 
-```python {all|1|2|3-4|5|7-8|all}
+```python {all|2|3-5|6-8|all}
 [{
   "type": "array",
   "items": {
@@ -1019,7 +1019,7 @@ Can TaDa predict worst-case of <code>bubble_sort</code> ?
 
 <div v-click>
 
-<div class="flex row -ml-8 mt-5">
+<div class="flex row -ml-8 mt-3">
 
 <mdi-code-json class="text-6xl ml-4 mt-4 text-blue-600" />
 
@@ -1167,7 +1167,7 @@ Correct worst-case predictions and empirical insights
   }
 </style>
 
-## TaDa tool bridges the experimental and analytical
+## TaDa tool bridges the experimental and analytical!
 
 <v-clicks>
 
@@ -1224,7 +1224,7 @@ TaDa runs doubling experiments and predicts
   }
 </style>
 
-## Typer and Poetry provide an "opinionated" option
+## TaDa makes it easy to run doubling experiments!
 
 <v-clicks>
 
