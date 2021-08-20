@@ -1149,3 +1149,115 @@ Correct worst-case predictions and empirical insights
 
 [//]: # (Slide End }}})
 
+---
+
+[//]: # (Slide Start {{{)
+
+# Performance Evaluation
+
+<style>
+  h1 {
+    @apply text-6xl -my-2 leading-20 font-bold text-dark-100 text-orange-600;
+  }
+  h2 {
+    @apply text-4xl leading-20 font-bold text-dark-100;
+  }
+  code {
+    font-size: 36px;
+  }
+</style>
+
+## TaDa tool bridges the experimental and analytical
+
+<v-clicks>
+
+<div class="flex row">
+
+<uim-exclamation-triangle class="text-7xl ml-0 mt-0 text-blue-600" />
+
+<div class="text-4xl font-medium mt-6 ml-4">
+Analytical study of performance is challenging
+</div>
+
+</div>
+
+<div class="flex row">
+
+<uim-layer-group class="text-7xl ml-0 mt-8 text-blue-600" />
+
+<div class="text-4xl font-medium mt-12 ml-4">
+Experimental study requires data and tooling
+</div>
+
+</div>
+
+<div class="flex row">
+
+<uim-rocket class="text-7xl ml-0 mt-8 text-blue-600" />
+
+<div class="text-4xl font-medium mt-12 ml-4">
+TaDa runs doubling experiments and predicts
+</div>
+
+</div>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
+
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Tool Development with Python
+
+<style>
+  h1 {
+    @apply text-6xl -my-2 leading-20 font-bold text-dark-100 text-orange-600;
+  }
+  h2 {
+    @apply text-4xl leading-20 font-bold text-dark-100;
+  }
+  code {
+    font-size: 30px;
+  }
+</style>
+
+## Typer and Poetry provide an "opinionated" option
+
+<v-clicks>
+
+<div class="flex row">
+
+<uim-github class="text-7xl ml-0 mt-0 text-blue-600" />
+
+<div class="text-4xl font-medium mt-6 ml-4">
+See <code>Tada-Project/tada</code> for details
+</div>
+
+</div>
+
+<div class="flex row">
+
+<uim-comment-dots class="text-7xl ml-0 mt-8 text-blue-600" />
+
+<div class="mt-14 ml-4">
+<code>https://www.gregorykapfhammer.com/</code>
+</div>
+
+</div>
+
+<div class="flex row">
+
+<uim-github class="text-7xl ml-0 mt-8 text-blue-600" />
+
+<div class="text-2xl font-medium mt-14 ml-4">
+<code>gkapfham/codepalousa2021-presentation-tada</code>
+</div>
+
+</div>
+
+</v-clicks>
+
+[//]: # (Slide End }}})
