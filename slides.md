@@ -285,7 +285,7 @@ How to analytically evaluate a program's performance?
 
 <div v-click>
 
-<div class="flex row">
+<div class="flex row -ml-4">
 
 <uim-repeat class="text-6xl ml-8 mt-6 text-blue-600" />
 
@@ -299,7 +299,7 @@ Commonly used growth functions
 
 <div v-click>
 
-<div class="flex row">
+<div class="flex row -ml-4">
 
 <uim-layer-group class="text-6xl ml-8 mt-6 text-blue-600" />
 
@@ -1079,10 +1079,10 @@ Describe structure to support automated data generation
 
 <div class="text-3xl font-bold mt-7 ml-4">
 
-- Using type annotations, Typer can:
-  - automatically generate all menus
-  - perform error checking on all arguments
-  - convert all arguments to the correct type
+- Interpreting TaDa's output:
+  - Ran multiple threads for multiple input sizes
+  - Doubled the input size and recorded time
+  - Used ratio to correctly predict worst-case
 
 </div>
 
