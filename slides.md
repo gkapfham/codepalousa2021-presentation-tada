@@ -63,7 +63,7 @@ title: TaDa it's Magic
 ## Intended Audience
 
 > An **adventuresome** technology enthusiast who wants to explore how a new
-> approach to performance evaluation can make their **programs faster**!
+> approach to **performance evaluation** can make their **programs faster**!
 
 </div>
 
@@ -218,7 +218,7 @@ What are the trade-offs of these two approaches?
   }
 </style>
 
-- Provides a clear means by which to compare functions
+- Provides a clear means by which to compare programs
 - Does not depend on the hardware or software configuration
 - Yet, often requires precise mathematical reasoning skills
 
@@ -230,7 +230,7 @@ What are the trade-offs of these two approaches?
 
 # Experimental
 
-- Must generate inputs to the program subject to analysis
+- Must generate inputs to the program subject to experiments
 - Must repeatedly run a program and collect performance data
 - Only generally accessible to programmers if good tools exist
 
