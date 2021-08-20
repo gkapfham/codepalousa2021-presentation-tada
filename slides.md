@@ -427,7 +427,7 @@ print(sum_digits)
 <mdi-help-box class="text-6xl ml-4 mt-4 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
-What is worst-case time complexity of <code>add_digits</code>?
+What is worst-case time complexity of <code>add_digits</code> ?
 </div>
 
 </div>
@@ -464,7 +464,7 @@ print(factorial_value)
 <mdi-help-box class="text-6xl ml-4 mt-4 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
-What is worst-case time complexity of <code>factorial</code>?
+What is worst-case time complexity of <code>factorial</code> ?
 </div>
 
 </div>
@@ -503,7 +503,7 @@ def is_subset(one: List, two: List) -> bool:
 <mdi-help-box class="text-6xl ml-4 mt-0 text-blue-600" />
 
 <div class="text-3xl font-bold mt-4 ml-4">
-What is worst-case time complexity of <code>is_subset</code>?
+What is worst-case time complexity of <code>is_subset</code> ?
 </div>
 
 </div>
@@ -946,7 +946,7 @@ def insertion_sort(lst: list[int]) -> list[int]:
 <mdi-help-box class="text-6xl ml-4 mt-4 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
-Can TaDa estimate worst-case of <code>insertion_sort</code> ?
+Can TaDa predict worst-case of <code>insertion_sort</code> ?
 </div>
 
 </div>
@@ -986,7 +986,7 @@ def bubble_sort(lst: list[int]) -> list[int]:
 <mdi-help-box class="text-6xl ml-4 mt-4 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
-Can TaDa estimate worst-case of <code>bubble_sort</code> ?
+Can TaDa predict worst-case of <code>bubble_sort</code> ?
 </div>
 
 </div>
@@ -994,3 +994,119 @@ Can TaDa estimate worst-case of <code>bubble_sort</code> ?
 </div>
 
 [//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+## TaDa's Automated Analysis of Insertion Sort
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-orange-600 mb-4;
+  }
+  li {
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
+
+<pre>
++-----------------------------------------------------------------------------+
+|             insertion_sort: O(n) linear or O(nlogn) linearithmic            |
++------+------------------------+------------------------+--------------------+
+| Size |          Mean          |         Median         |       Ratio        |
++------+------------------------+------------------------+--------------------+
+|  25  | 3.644364811706543e-06  | 3.498709533691405e-06  |         0          |
+|  50  | 6.535123836263021e-06  | 6.483351989746092e-06  | 1.793213405878218  |
+| 100  | 1.2902192108154296e-05 | 1.2540842590332028e-05 | 1.9742842571032526 |
+| 200  | 2.5023900944010416e-05 | 2.4608139038085928e-05 | 1.9395077002608803 |
+| 400  | 5.526396857910156e-05  | 5.3515207031250005e-05 | 2.2084473840729952 |
+| 800  | 0.00011801120257161459 |  0.00011251379296875   | 2.1354094829925283 |
++------+------------------------+------------------------+--------------------+
+</pre>
+
+</div>
+
+<div v-click>
+
+<div class="flex row">
+
+<uim-vector-square-alt class="text-9xl ml-5 mt-5 text-blue-600" />
+
+<div class="text-3xl font-bold mt-7 ml-4">
+
+- Using type annotations, Typer can:
+  - automatically generate all menus
+  - perform error checking on all arguments
+  - convert all arguments to the correct type
+
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+## TaDa's Automated Analysis of Bubble Sort
+
+<style>
+  h2 {
+    font-size: 42px;
+    @apply text-orange-600 mb-4;
+  }
+  li {
+    font-size: 28px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+  }
+</style>
+
+<div class="border-2 rounded-2xl border-gray-700 bg-true-gray-300 p-5">
+
+<pre>
++-----------------------------------------------------------------------------+
+|                        bubble_sort: O(n^2) quadratic                        |
++------+------------------------+------------------------+--------------------+
+| Size |          Mean          |         Median         |       Ratio        |
++------+------------------------+------------------------+--------------------+
+|  25  | 2.8776128824869792e-05 | 2.846207250976562e-05  |         0          |
+|  50  | 0.00010703222574869792 | 0.00010308191601562499 | 3.7194796562140504 |
+| 100  | 0.0004109644687825521  | 0.00039437410449218743 | 3.8396330255474633 |
+| 200  |   0.0015730586140625   | 0.0015326660937500002  | 3.8277241308051635 |
+| 400  |    0.00632440301875    |  0.006229572156249999  | 4.020449690947576  |
+| 800  |  0.029292134683333335  |  0.028519337000000006  | 4.631604690038055  |
++------+------------------------+------------------------+--------------------+
+
+At the greatest common size 800:
+Mean: insertion_sort is 99.60% faster than bubble_sort
+Median: insertion_sort is 99.61% faster than bubble_sort
+</pre>
+
+</div>
+
+<div v-click>
+
+<div class="flex row mt-8 -ml-2">
+
+<uim-vector-square-alt class="text-7xl ml-4 mt-0 text-blue-600" />
+
+<div class="text-3xl font-bold mt-6 ml-4">
+Correct worst-case predictions and empirical insights
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
