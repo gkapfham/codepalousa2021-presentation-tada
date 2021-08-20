@@ -545,7 +545,7 @@ Bespoke auto-doubling experiment tool
 <uim-rocket class="text-6xl ml-8 mt-6 text-blue-600" />
 
 <div class="text-4xl font-bold mt-10 ml-4">
-TaDa! auto-doubling for a Python function
+TaDa auto-doubling for a Python function
 </div>
 
 </div>
@@ -872,7 +872,7 @@ Establish a statistical confidence in the prediction
 
 [//]: # (Slide Start {{{)
 
-# TaDa! Runs a Doubling Experiment
+# TaDa Runs a Doubling Experiment
 
 <div class="flex row -mt-4">
 
@@ -922,7 +922,7 @@ See <code>Tada-Project/tada</code> for details
 
 <div v-click>
 
-<div class="ml-2 my-2">
+<div class="ml-2 my-5">
 
 ```python
 def insertion_sort(lst: list[int]) -> list[int]:
@@ -941,12 +941,52 @@ def insertion_sort(lst: list[int]) -> list[int]:
 
 <div v-click>
 
+<div class="flex row -mt-3">
+
+<mdi-help-box class="text-6xl ml-4 mt-4 text-blue-600" />
+
+<div class="text-3xl font-bold mt-8 ml-4">
+Can TaDa estimate worst-case of <code>insertion_sort</code> ?
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+---
+
+[//]: # (Slide Start {{{)
+
+# Analyzing the <code>bubble_sort</code> Function
+
+<div v-click>
+
+<div class="ml-2 my-4 mt-10">
+
+```python
+def bubble_sort(lst: list[int]) -> list[int]:
+    for num in range(len(lst) - 1, 0, -1):
+        for i in range(num):
+            if lst[i] > lst[i + 1]:
+                temp = lst[i]
+                lst[i] = lst[i + 1]
+                lst[i + 1] = temp
+    return lst
+```
+</div>
+
+</div>
+
+<div v-click>
+
 <div class="flex row mt-5">
 
 <mdi-help-box class="text-6xl ml-4 mt-4 text-blue-600" />
 
 <div class="text-3xl font-bold mt-8 ml-4">
-Can TaDa! estimate worst-case of <code>insertion_sort</code>?
+Can TaDa estimate worst-case of <code>bubble_sort</code> ?
 </div>
 
 </div>
