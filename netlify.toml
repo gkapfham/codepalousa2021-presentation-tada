@@ -1,6 +1,5 @@
 [build.environment]
   NODE_VERSION = "14"
-  PLAYWRIGHT_BROWSERS_PATH = "0"
 
 [build]
   publish = "dist"
