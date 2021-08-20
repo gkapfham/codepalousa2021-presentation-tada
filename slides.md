@@ -999,6 +999,45 @@ Can TaDa predict worst-case of <code>bubble_sort</code> ?
 
 [//]: # (Slide Start {{{)
 
+# Hypothesis and JSON Schema for Data
+
+<div class="ml-2 my-2">
+
+```python {all|1|2|3-4|5|7-8|all}
+[{
+  "type": "array",
+  "items": {
+    "type": "integer"
+  },
+  "uniqueItems": true,
+  "maxItems": 0,
+  "minItems": 0
+}]
+```
+
+</div>
+
+<div v-click>
+
+<div class="flex row -ml-8 mt-5">
+
+<mdi-code-json class="text-6xl ml-4 mt-4 text-blue-600" />
+
+<div class="text-3xl font-bold mt-8 ml-4">
+Describe structure to support automated data generation
+</div>
+
+</div>
+
+</div>
+
+[//]: # (Slide End }}})
+
+
+---
+
+[//]: # (Slide Start {{{)
+
 ## TaDa's Automated Analysis of Insertion Sort
 
 <style>
